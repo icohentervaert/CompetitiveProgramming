@@ -1,4 +1,4 @@
-# rename this to .clangd, and ensure if on windows the rarg
+# rename this to .clangd, and ensure if on windows the line is uncommented
 CompileFlags:
     Add:
         - -DLOCAL
@@ -11,7 +11,7 @@ CompileFlags:
         - -Wno-unused-const-variable
         - -Wno-sign-conversion
         - -std=c++17
-        # - --target=x86_64-w64-mingw32  # uncomment this line
+        # - --target=x86_64-w64-mingw32  # uncomment this line if on windows
 
 Index:
   Background: Skip
