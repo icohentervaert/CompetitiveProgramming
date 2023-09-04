@@ -1,0 +1,17 @@
+# rename this to .clangd, and ensure if on windows the rarg
+CompileFlags:
+    Add:
+        - -DLOCAL
+        - -Wall
+        - -O2
+        - -Wextra
+        - -Wshadow
+        - -Wconversion
+        - -Wfloat-equal
+        - -Wno-unused-const-variable
+        - -Wno-sign-conversion
+        - -std=c++17
+        # - --target=x86_64-w64-mingw32  # uncomment this line
+
+Index:
+  Background: Skip

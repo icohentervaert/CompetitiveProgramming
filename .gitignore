@@ -1,0 +1,5 @@
+*_input*.txt
+*_output*.txt
+*.testcases
+.clangd
+*/build/
